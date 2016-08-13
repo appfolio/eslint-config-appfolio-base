@@ -20,7 +20,7 @@ module.exports = {
     'require-jsdoc': [1, { // Encourage writing comments
       require: {
         FunctionDeclaration: true,
-        MethodDefinition: true,
+        MethodDefinition: false,
         ClassDeclaration: true
       }
     }],

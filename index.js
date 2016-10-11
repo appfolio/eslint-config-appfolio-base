@@ -17,7 +17,6 @@ module.exports = {
       destructuring: 'any',
       ignoreReadBeforeAssign: true
     }],
-    'react/prop-types': 0, // TODO rule is adding support for validating declared only, relook then.
     'require-jsdoc': [1, { // Encourage writing comments
       require: {
         FunctionDeclaration: false,

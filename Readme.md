@@ -1,5 +1,7 @@
 # Appfolio base ESLint config
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/appfolio/eslint-config-appfolio-base.svg)](https://greenkeeper.io/)
+
 This package provides Appfolio's base JavaScript for ES6/2015 as an extensible shared config.
 
 This is based on [eslint-config-airbnb-base](https://www.npmjs.com/package/eslint-config-airbnb-base),

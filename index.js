@@ -1,5 +1,5 @@
 module.exports = {
-  'extends': 'airbnb-base',
+  extends: 'airbnb-base',
   parserOptions: {
     ecmaVersion: 2018,
     ecmaFeatures: {
@@ -26,4 +26,4 @@ module.exports = {
     }],
     'spaced-comment': 0
   }
-}
+};

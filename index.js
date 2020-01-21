@@ -1,5 +1,8 @@
 module.exports = {
-  'extends': 'airbnb-base',
+  extends: 'airbnb-base',
+  plugins: [
+    'no-only-tests'
+  ],
   parserOptions: {
     ecmaFeatures: {
       experimentalObjectRestSpread: true,
@@ -14,6 +17,7 @@ module.exports = {
     'max-len': [1, 100, { ignoreTrailingComments: true }],
     'new-cap': 1,
     'no-console': 1,
+    'no-only-tests/no-only-tests': 2,
     'no-param-reassign': 0,
     'no-return-assign': 1,
     'object-curly-newline': 0,

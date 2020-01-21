@@ -4,8 +4,8 @@ module.exports = {
     'no-only-tests'
   ],
   parserOptions: {
+    ecmaVersion: 2018,
     ecmaFeatures: {
-      experimentalObjectRestSpread: true,
       jsx: true
     }
   },
@@ -24,4 +24,4 @@ module.exports = {
     'prefer-destructuring': 0,
     'spaced-comment': 0
   }
-}
+};

@@ -6,7 +6,8 @@
   "author": "Appfolio, Inc.",
   "license": "MIT",
   "scripts": {
-    "lint": "eslint ."
+    "lint": "eslint .",
+    "postpublish": "git push --no-verify && git push --tags"
   },
   "dependencies": {
     "eslint": "^4.9.0",

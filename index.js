@@ -1,27 +1,26 @@
 module.exports = {
   extends: 'airbnb-base',
-  plugins: [
-    'no-only-tests'
-  ],
+  plugins: ['no-only-tests'],
   parserOptions: {
-    ecmaVersion: 2018,
+    ecmaVersion: 'latest',
     ecmaFeatures: {
       jsx: true
     }
   },
   rules: {
-    'arrow-body-style': [2, 'as-needed', { requireReturnForObjectLiteral: true }],
-    'comma-dangle': 0,
-    'import/extensions': 0,
-    'import/no-unresolved': 1, // To minimize false errors with Webpack loaders
-    'max-len': [1, 100, { ignoreTrailingComments: true }],
-    'new-cap': 1,
-    'no-console': 1,
-    'no-only-tests/no-only-tests': 2,
-    'no-param-reassign': 0,
-    'no-return-assign': 1,
-    'object-curly-newline': 0,
-    'prefer-destructuring': 0,
-    'spaced-comment': 0
+    'arrow-body-style': ['error', 'as-needed', { requireReturnForObjectLiteral: true }],
+    'comma-dangle': 'off',
+    'import/extensions': 'off',
+    'import/no-unresolved': 'warn', // To minimize false errors with Webpack loaders
+    'import/prefer-default-export': 'off',
+    'max-len': ['warn', 100, { ignoreTrailingComments: true }],
+    'new-cap': 'warn',
+    'no-console': 'warn',
+    'no-only-tests/no-only-tests': 'error',
+    'no-param-reassign': 'off',
+    'no-return-assign': 'warn',
+    'object-curly-newline': 'off',
+    'prefer-destructuring': 'off',
+    'spaced-comment': 'off'
   }
 };

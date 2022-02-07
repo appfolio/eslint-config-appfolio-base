@@ -1,20 +1,23 @@
 {
-  "name": "eslint-config-appfolio-base",
-  "version": "1.1.0",
+  "name": "@appfolio/eslint-config-appfolio-base",
+  "version": "1.1.1-0",
   "description": "Appfolio ESLint base config",
   "main": "index.js",
   "author": "Appfolio, Inc.",
   "license": "MIT",
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/"
+  },
   "scripts": {
     "lint": "eslint .",
     "postpublish": "git push --no-verify && git push --tags"
   },
   "dependencies": {
-    "eslint": "^4.9.0",
-    "eslint-config-airbnb": "^16.1.0",
-    "eslint-plugin-import": "^2.8.0",
-    "eslint-plugin-no-only-tests": "^2.4.0",
-    "eslint-plugin-jsx-a11y": "^6.0.2",
-    "eslint-plugin-react": "^7.4.0"
+    "eslint": "^8.7.0",
+    "eslint-config-airbnb": "^19.0.4",
+    "eslint-plugin-import": "^2.25.4",
+    "eslint-plugin-jsx-a11y": "^6.5.1",
+    "eslint-plugin-no-only-tests": "^2.6.0",
+    "eslint-plugin-react": "^7.28.0"
   }
 }

@@ -10,7 +10,8 @@
   },
   "scripts": {
     "lint": "eslint .",
-    "postpublish": "git push --no-verify && git push --tags"
+    "publish:npm": "npm publish --ignore-scripts --tag ${TAG:='latest'} --access public --@appfolio:registry='https://registry.npmjs.org'",
+    "postpublish": "npm run publish:npm && git push --no-verify && git push --tags"
   },
   "dependencies": {
     "eslint": "^8.7.0",

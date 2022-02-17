@@ -18,6 +18,7 @@ module.exports = {
     'no-console': 'warn',
     'no-only-tests/no-only-tests': 'error',
     'no-param-reassign': 'off',
+    'no-plusplus': 'off',
     'no-return-assign': 'warn',
     'object-curly-newline': 'off',
     'prefer-destructuring': 'off',

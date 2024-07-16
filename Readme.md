@@ -1,5 +1,7 @@
 # Appfolio base ESLint config
 
+## ** This is config is now deprecated, please use https://github.com/appfolio/front-end-libs/tree/main/packages/eslint-config-appfolio ([package](https://github.com/appfolio/front-end-libs/pkgs/npm/eslint-config-appfolio)) **
+
 This package provides Appfolio's base JavaScript for ES6/2015 as an extensible shared config.
 
 This is based on [eslint-config-airbnb-base](https://www.npmjs.com/package/eslint-config-airbnb-base),
